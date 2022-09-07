@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.question_sec {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  margin-top: 30px;
+}
+.question_sec li {
+  font-size: 18px;
+  padding: 10px;
+}
+.question_sec ul li:before {  
+    border: 2px solid white;
+    content: '';
+    width: 13px;
+    height: 13px;
+    margin: 0 15px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.question_sec ul li:hover {
+  color: black;
+  background-color:rgba(256, 256, 256, 0.6);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.question_sec span {
+  font-weight: bold;
+  font-size: 21px;
+  display: inline-block;
+  background: orange;
+  border-radius: 100%;
+  padding: 12px;
+}
+.fillDot:before {
+  background-color: #fff;
+}
+
+.question_sec h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.question_sec ul {
+  list-style: none;
+}
+
+#btn-pass {
+  margin: 35px auto;
+  display: block;
+}
